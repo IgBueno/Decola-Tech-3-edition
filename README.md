@@ -1,2 +1,2 @@
-# Decola-Tech-3-edição 👷
-Projetos e anotações desenvolvidos ao decorrer do bootcamp
+# Decola-Tech-3-edition 👷
+Projects and notes developed in this bootcamp
