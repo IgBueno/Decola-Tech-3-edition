@@ -1,2 +1,2 @@
-# Decola-Tech-3-edi-o
+# Decola-Tech-3-edição
 Projetos e anotações desenvolvidos ao decorrer do bootcamp
