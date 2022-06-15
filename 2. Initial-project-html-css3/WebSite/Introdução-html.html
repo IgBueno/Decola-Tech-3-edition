@@ -6,29 +6,34 @@
     <!-- Informações do buscador -->
     <title>Igor Bueno</title>
     <!-- Título -->
+    <link rel="stylesheet" href="style.css">
+    <!-- rel - diz ao navegador qual tipo de arquivo
+    href - caminho css -->
   </head>
   <body>
   <!-- Conteúdo da página -->
     <header>
-      <img src="IGOR.jpg" alt="Registro de igor">
+      <img src="Photos/IGOR.jpg" alt="Registro de igor">
       <!-- Scr descreve local ou nome da imagem
       alt - texto descritivo para caso a imagem esteja com algum problema ou leitores de áudio -->
-      <h1>Igor Bueno</h1>
+      <h1 id="title">Igor Bueno</h1>
+      <!-- id e class representa qualquer tipos de elementos o id -->
     </header>
     <section>
     <!-- Sessão genérica de conteúdos -->
       <header>
       <!-- Cabeçário de uma página ou parte da página -->
-        <h2>Posts</h2>
+        <h2 class="subtitle">Posts</h2>
       </header>
       <article>
         <!-- Conteúdo relevante dentro da página -->
         <header>
-          <h3> Post #1</h3>
+          <h3 class="Post_title">Post #1</h3>
+          <img src="HTM.jpg" alt="Testando erro quando foto danificada">
         </header>
         <p>
-          Lorem Ipsum is <a href="https://www.linkedin.com/in/igor-bueno-89ab1a189/" target="_blanck"> simply dummy </a> text of the printing and typesetting industry. <a href="igordsb402@gmail.com">Lorem Ipsum</a> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-          <img src="HTM.jpg" alt="Testando erro quando foto danificada">
+          Lorem Ipsum is <a href="https://www.linkedin.com/in/igor-bueno-89ab1a189/" target="_blanck"> simply dummy </a> text of the printing and typesetting industry. <a href="igordsb402@gmail.com">Lorem Ipsum</a> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
             <!-- "a" âncora interliga vários conteúdos na web -->
             <!-- href Hiperlink para onde sua âncora está apontando (e-mail, telefone e links) -->
             <!-- Target como o link será aberto  
@@ -36,7 +41,7 @@
         </article>
     </section>
     <footer>
-      <ul>
+      <ol>
         <li>
           <!-- Indica que é uma lista não ordenada troca por ol se alista for ordenada -->
           <a href="igordsb402@gmail.com">igordsb402@gmail.com</a>
@@ -47,8 +52,8 @@
         <li>
           <a href="https://github.com/IgBueno" target="blank">GitHub</a>
         </li>
-      </ul>
+      </ol>
     <!-- Rodapé da página ou parte da página -->
     </footer>
-</body>
+  </body>
 </html>

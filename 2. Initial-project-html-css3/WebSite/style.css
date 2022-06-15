@@ -1,0 +1,9 @@
+#title, .subtitle, .post_title {
+    color: blue;
+}
+/* # para id
+. para as class */
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+}
