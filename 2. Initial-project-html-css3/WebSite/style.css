@@ -1,9 +1,68 @@
-#title, .subtitle, .post_title {
-    color: blue;
+body{
+    background: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
+} 
+/*Background- Cor do fundo para o corpo do texto */
+/* Font-Family - Altera o tipo da fonte */
+/*max-width - Para ajustar conteúdo na tela  */
+.Perfil_Photo{
+    border: 6px solid #505050 ;
+    border-radius: 50%;
+    width:25% ;
 }
-/* # para id
-. para as class */
-.post_title{
+/* border - altera tamanho, estilo e cor da borda */
+/* Borde-radius altera o raio do objeto */
+/* width - Regula altura se usar valor em porcentagem ajusta altura e largura  */
+#title,.subtitle, .subtitle_1{
+    color: #505050  ;
+}
+/* # para id e para as class */
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+/* Text-transform - Coloca o texto em caixa alta */
+a{
+    text-decoration: line-through;
+    color:#505050;
+}
+/* text-decoration - modifica o texto */
+/* line-through - Adiciona um traço sobre o texto */
+.subtitle_1{
     font-size: 16px;
     font-style: italic;
+    margin:0;
+    margin-bottom: 15px;
+}
+/* margin - tamanho da margem */
+/* margin-bottom - distância abaixo do conteúdo */
+.post{
+    background:#ffff ;
+    padding: 10px;
+    border: 3px solid #000;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    /* Padding - Espaçamento entre aborda e o conteúdo */
+}
+
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post_image{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.conctact_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.conctact_list li a {
+    text-decoration: none ;
 }
