@@ -112,3 +112,18 @@ console.log(maiorOuIgual)
 
 var menorOuIgual = 8 <= 10;
 console.log(menorOuIgual)
+
+// Operadores lógicos
+// &&, // e !
+
+// && - As duas condições precisam ser verdadeiras
+var e = true && false;
+console.log(e)
+
+// || - Uma das condições precisa ser verdadeira
+var ou = true || false
+console.log (ou)
+
+// ! - Inverte a condição de verdadeira para falsa
+var nao = !true;
+console.log (nao)
