@@ -27,7 +27,7 @@ console.log(variavel)
 // Variável "let" - Escopo local de bloco
 // - Pode ter seu valor alterado
 // - Se não tiver um valor inicial será tratada como null
-// Permite alterar variavel após sua criação
+// - Permite alterar variavel após sua criação
 
 let variavel2 = "Diana"
 variavel2 = "Frank"
