@@ -3,15 +3,15 @@
 // var placar;
 
 //  Condicional
-// If ternário
+// If ternário ( verificação de uma única linha)
 // jogador1 != -1 && jogador2 != -1 ? console.log('Os jogadores são válidos'): console.log('Jogadores inválidos');
 
-// Usando if
+// Usando if (Se)
   // if (jogador1 > 0 && jogador2 == 0) {
   //   console.log( 'Jogador 1 marcou ponto!');
   //   placar = jogador1 > jogador2;
 
-// Usando else if
+// Usando else if ( Caso tenha mais de uma condição )
   // } else if(jogador2 > 0 && jogador1 == 0){
   //   console.log('Jogador 2 marcou ponto')
   //   placar = jogador2 > jogador1
@@ -35,7 +35,7 @@
 //     console.log('Ninguém ganhou');
 // }
 
-// For - Repetição de instrução até que condição seja falta
+// For - Repetição de instrução até que condição seja falsa
 let array = ['valor1', 'valor2', 'valor3', 'valor4', 'valor5',];
 
 let object = {propriedade1: 'valor1', propriedade2: 'valor2', propriedade3:'valor3',}
@@ -46,9 +46,9 @@ let object = {propriedade1: 'valor1', propriedade2: 'valor2', propriedade3:'valo
 
 // For/in - Repetição apartir de uma propriedade
 // for (let i in array){
-//   console.log(i)
-
+//   console.log(i);
 // }
+
 //  com object
 // for (i in object) {
 //   console.log(i)
