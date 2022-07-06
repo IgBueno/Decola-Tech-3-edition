@@ -3,3 +3,4 @@ Projects and notes developed in this bootcamp
 #### Objectives:
 - Practice English
 - Learn the programming language
+- Finished
